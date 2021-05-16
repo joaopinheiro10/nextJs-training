@@ -33,6 +33,7 @@ const Article = (props) =>
 // }
 
 // 2nd You can use a combination from getStaticProps and getStaticPaths to dynamically generate the path for the data (only change this one and show error message)
+
 // export const getStaticProps = async (context) =>
 // {
 //     const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${context.params.id}`);
@@ -45,6 +46,8 @@ const Article = (props) =>
 //         }
 //     }
 // }
+
+// Pre-render all ids
 
 // export const getStaticPaths = async () =>
 // {
