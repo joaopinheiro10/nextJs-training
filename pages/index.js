@@ -3,11 +3,10 @@ import ArticleList from '../components/ArticleList'
 
 export default function Home({articles}) 
 {
-    console.log(articles);
     return (
         <div>
             <Head>
-                <title>WebDev Newz</title>
+                <title>NextJs Training</title>
                 <meta name='keywords' content='web development, programming' />
             </Head>
             
